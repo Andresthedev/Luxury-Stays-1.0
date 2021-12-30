@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="stylesheets\index.css">
+<!--    
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+-->
+
+</head>
+
+<body>
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+        <div class="w3-bar w3-white w3-card" id="myNavbar">
+          <a href="index.html" class="w3-bar-item w3-button w3-wide">LOGO</a>
+          <!-- Right-sided navbar links -->
+          <div class="w3-right w3-hide-small">
+            <a href="index.html" class="w3-bar-item w3-button">Home</a>
+            <a href="#team" class="w3-bar-item w3-button"><i class=""></i> Germany</a>
+            <a href="#work" class="w3-bar-item w3-button"><i class="fa fa-th"></i> United Kingdom</a>
+            <a href="mexico.html" class="w3-bar-item w3-button"><i class="fa fa-usd"></i> Mexico</a>
+            <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> United States</a>
+            <input type="text" name="search" placeholder="Search..">
+                  
+          </div>
+          <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+      
+          <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+      </div>
+      
+      <!-- Sidebar on small screens when clicking the menu icon -->
+      <nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+        <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+        <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button">Home</a>
+        <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">Germany</a>
+        <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">United Kingdom</a>
+        <a href="mexico.html" onclick="w3_close()" class="w3-bar-item w3-button">Mexico</a>
+        <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">United States</a>
+      </nav>
+      
+      <!-- Header with full-height image -->
+      <header class="bgimg-2 w3-display-container w3-grayscale-min" id="home">
+        <div class="w3-display-left w3-text-white" style="padding:48px">
+          <span id="Names" class="w3-jumbo w3-hide-small">Mexico</span><br>
+          <span class="w3-xxlarge w3-hide-large w3-hide-medium">Start something that matters</span><br>
+          <span class="w3-large 
+          typewrite" data-period="2000" data-type='["Mexico Has sop much to offer so... ", "Enjoy Mexico to the fullest." ]'>
+    <span class="wrap"></span><!--Mexico has so much to offer from their north border to their south border--></span>
+          <p><a href="#desire" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">View our resort!</a></p>
+        </div> 
+        <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px">
+          <i class="fa fa-facebook-official w3-hover-opacity"></i>
+          <i class="fa fa-instagram w3-hover-opacity"></i>
+          <i class="fa fa-snapchat w3-hover-opacity"></i>
+          <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+          <i class="fa fa-twitter w3-hover-opacity"></i>
+          <i class="fa fa-linkedin w3-hover-opacity"></i>
+        </div>
+      </header>
+      
+        <!--map-->
+        <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1I7iTp8I84kS1RlNuADQHZK6c9lvwuB5u" width="640" height="480"></iframe>
+
+
+      
+      <!-- About Section -->
+      <div class="w3-container" style="padding:128px 16px" id="about">
+        <p class="w3-center w3-large">Info on our map markers</p>
+        <div class="w3-row-padding w3-center" style="margin-top:64px">
+          <div class="w3-quarter">
+            <i class="fa fa-map-marker w3-margin-bottom w3-jumbo w3-center"></i>
+            <p class="w3-large">Red</p>
+            <p> Blue markers is for our Girl enertainers that are not able to host.</p>
+          </div>
+          <div class="w3-quarter">
+            <i class="fa fa-map-marker w3-margin-bottom w3-jumbo"></i>
+            <p class="w3-large">Blue</p>
+            <p> Blue markers is for our Girl enertainers that are not able to host.</p>
+          </div>
+          <div class="w3-quarter">
+            <i class="fa fa-map-marker w3-margin-bottom w3-jumbo"></i>
+            <p class="w3-large">yellow</p>
+            <p> Yellow markers are for our Male enertainers areas.</p>
+          </div>
+          <div class="w3-quarter">
+            <i class="fa fa-map-marker w3-margin-bottom w3-jumbo"></i>
+            <p class="w3-large">purple</p>
+            <p>purple map markers are our LGBTQ enetrainers areas. </p>
+          
+        </div>
+        </div>
+      </div>
+      
+      <!-- Promo Section - "We know design" -->
+      <div class="w3-container w3-light-grey" style="padding:128px 16px" id="desire">
+        <div class="w3-row-padding">
+          <div class="w3-col m6">
+            <h3>We know desire.</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>tempor incididunt ut labore et dolore.</p>
+            <p><a href="#work" class="w3-button w3-black"><i class="fa fa-th"> </i> View Our girls</a></p>
+          </div>
+          <div class="w3-col m6">
+            <img class="w3-image w3-round-large" src="http://i.4cdn.org/gif/1548486168143.gif" alt="Buildings" width="700" height="394">
+          </div>
+        </div>
+      </div>
+      
+      <!-- popular girls -->
+      <div class="w3-container" style="padding:128px 16px" id="team">
+        <h3 class="w3-center">Girls all over the World</h3>
+        <p class="w3-center w3-large">Most Popular</p>
+        <div class="w3-row-padding w3-grayscale" style="margin-top:64px">
+          <div class="w3-col 13 m6 w3-margin-bottom">
+            <div class="w3-card">
+              <img src="http://i.4cdn.org/hr/1548826299458.jpg" alt="John" style="width:100%">
+              <div class="w3-container">
+                <h3 class="rating">Amy Lover 
+                        <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                </h3>
+                <p class="w3-opacity">Germany/Host</p>
+                <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+              </div>
+            </div>
+          </div>
+          <div class="w3-col 13 m6 w3-margin-bottom">
+            <div class="w3-card">
+              <img class="Angel" src="http://i.4cdn.org/hr/1548828003659.jpg" alt="Jane" style="width:100%">
+              <div class="w3-container">
+                <h3 class="rating">Angel Doe   <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span></h3>
+                <p class="w3-opacity">United States/<i class="crossout">Host</i></p>
+                <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+              </div>
+            </div>
+          </div>
+          <div class="w3-col 13 m6 w3-margin-bottom">
+            <div class="w3-card">
+              <img src="http://i.4cdn.org/hr/1548826683894.jpg" alt="Mike" style="width:100%">
+              <div class="w3-container">
+                <h3 class="rating">Daisy Bonter <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span> </h3>
+                <p class="w3-opacity">United Kingdom </p>
+                <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+              </div>
+            </div>
+          </div>
+          <div class="w3-col 13 m6 w3-margin-bottom">
+            <div class="w3-card">
+              <img src="http://i.4cdn.org/hr/1547289893241.png" alt="Dan" style="width:100%">
+              <div class="w3-container">
+                <h3 class="rating">Veronica hernadez <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span> </h3>
+                <p class="w3-opacity">Mexico/host</p>
+                <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+                <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Promo Section "Statistics" -->
+      <div class="w3-container w3-row w3-center w3-dark-grey w3-padding-64">
+        <div class="w3-quarter">
+                <div class="odometer-container"><div class="odometer odometer-theme-minimal"><div class="odometer-inside"><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">1</span></span></span></span></span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">0</span></span></span></span></span><span class="odometer-formatting-mark">,</span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">0</span></span></span></span></span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">0</span></span></span></span></span><span class="odometer-digit"><span class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span class="odometer-ribbon"><span class="odometer-ribbon-inner"><span class="odometer-value">0</span></span></span></span></span></div></div></div>
+          <span class="w3-xxlarge">100,000k+</span>
+          <br>Cities we are located in.
+        </div>
+        <div class="w3-quarter">
+          <span class="w3-xxlarge">900,000+</span>
+          <br>verified Users
+        </div>
+        <div class="w3-quarter">
+          <span class="w3-xxlarge">100,000+</span>
+          <br>Happy Clients
+        </div>
+        <div class="w3-quarter">
+          <span class="w3-xxlarge">200,000+</span>
+          <br>Meetings
+        </div>
+      </div>
+      
+      <!-- Work Section -->
+      <div class="w3-container" style="padding:128px 16px" id="work">
+        <h3 class="w3-center">OUR WORK</h3>
+        <p class="w3-center w3-large">What we've done for people</p>
+      
+        <div class="w3-row-padding" style="margin-top:64px">
+          <div class="w3-col l3 m6">
+            <img src="" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A microphone">
+          </div>
+          <div class="w3-col l3 m6">
+            <img src="" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A phone">
+          </div>
+          <div class="w3-col l3 m6">
+            <img src="" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A drone">
+          </div>
+          <div class="w3-col l3 m6">
+            <img src="" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Soundbox">
+          </div>
+        </div>
+      
+        <div class="w3-row-padding w3-section">
+          <div class="w3-col l3 m6">
+            <img src="" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A tablet">
+          </div>
+          <div class="w3-col l3 m6">
+            <img src="" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A camera">
+          </div>
+          <div class="w3-col l3 m6">
+            <img src="" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A typewriter">
+          </div>
+          <div class="w3-col l3 m6">
+            <img src="" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A tableturner">
+          </div>
+        </div>
+      </div>
+      
+      <!-- Modal for full size images on click-->
+      <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+        <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
+        <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+          <img id="img01" class="w3-image">
+          <p id="caption" class="w3-opacity w3-large"></p>
+        </div>
+      </div>
+      
+      <!-- Skills Section -->
+      <div class="w3-container w3-light-grey w3-padding-64">
+        <div class="w3-row-padding">
+          <div class="w3-col m6">
+            <h3>Numbers of verified enertainers</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>
+            tempor incididunt ut labore et dolore.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>
+            tempor incididunt ut labore et dolore.</p>
+          </div>
+          <div class="w3-col m6">
+            <p class="w3-wide"><i class="fa fa-shield w3-margin-right"></i>cleaniess</p>
+            <div class="w3-grey">
+              <div class="w3-container w3-dark-grey w3-center" style="width:90%">100%</div>
+            </div>
+            <p class="w3-wide"><i class="fa fa-star w3-margin-right">Service</i></p>
+            <div class="w3-grey">
+              <div class="w3-container w3-dark-grey w3-center" style="width:85%">99%</div>
+            </div>
+            <p class="w3-wide"><i class="fa fa-bed w3-margin-right"></i>Amenities</p>
+            <div class="w3-grey">
+              <div class="w3-container w3-dark-grey w3-center" style="width:75%">95%</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      <!-- Pricing Section -->
+      <div class="w3-container w3-center w3-dark-grey" style="padding:128px 16px" id="pricing">
+        <h3>PRICING</h3>
+        <p class="w3-large">Choose a layout and price.</p>
+        <div class="w3-row-padding" style="margin-top:64px">
+          <div class="w3-third w3-section">
+            <ul class="w3-ul w3-white w3-hover-shadow">
+              <li class="w3-black w3-xlarge w3-padding-32">1 Bdr</li>
+              <li class="w3-padding-16"><b>585</b> Sq ft</li>
+              <li class="w3-padding-16"><b>1</b> Bath</li>
+              <li class="w3-padding-16"><b></b> Balcony</li>
+              <li class="w3-padding-16"><b>small</b> kitchenette</li>
+              <li class="w3-padding-16">
+                <h2 class="w3-wide">$1000</h2>
+                <span class="w3-opacity">per month</span>
+              </li>
+              <li class="w3-light-grey w3-padding-24">
+                <button class="w3-button w3-black w3-padding-large">Sign Up</button>
+              </li>
+            </ul>
+          </div>
+          <div class="w3-third">
+            <ul class="w3-ul w3-white w3-hover-shadow">
+              <li class="w3-red w3-xlarge w3-padding-48">Premium 1 Bdr</li>
+              <li class="w3-padding-16"><b>1541</b> Sq Ft</li>
+              <li class="w3-padding-16"><b>1.5</b> Bath</li>
+              <li class="w3-padding-16"><b>Full</b> Kitchen</li>
+              <li class="w3-padding-16"><b>Family</b> activites</li>
+              <li class="w3-padding-16">
+                <h2 class="w3-wide">$2300</h2>
+                <span class="w3-opacity">per month</span>
+              </li>
+              <li class="w3-light-grey w3-padding-24">
+                <button class="w3-button w3-black w3-padding-large">Sign Up</button>
+              </li>
+            </ul>
+          </div>
+          <div class="w3-third w3-section">
+            <ul class="w3-ul w3-white w3-hover-shadow">
+              <li class="w3-black w3-xlarge w3-padding-32">2 Bdr</li>
+              <li class="w3-padding-16"><b>1987</b> Sq Ft</li>
+              <li class="w3-padding-16"><b>2.5</b> Bath</li>
+              <li class="w3-padding-16"><b>Full</b> Kitchen/ Island</li>
+              <li class="w3-padding-16"><b>Endless Family</b> activites</li>
+              <li class="w3-padding-16">
+                <h2 class="w3-wide">$2600</h2>
+                <span class="w3-opacity">per month</span>
+              </li>
+              <li class="w3-light-grey w3-padding-24">
+                <button class="w3-button w3-black w3-padding-large">Sign Up</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Footer -->
+      <footer class="w3-center w3-black w3-padding-64">
+        <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+        <div class="w3-xlarge w3-section">
+          <i class="fa fa-facebook-official w3-hover-opacity"></i>
+          <i class="fa fa-instagram w3-hover-opacity"></i>
+          <i class="fa fa-snapchat w3-hover-opacity"></i>
+          <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+          <i class="fa fa-twitter w3-hover-opacity"></i>
+          <i class="fa fa-linkedin w3-hover-opacity"></i>
+        </div>
+        <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+      </footer>
+
+
+
+
+
+
+        <script src="scriptss\index.js"></script>
+</body>
+</html>

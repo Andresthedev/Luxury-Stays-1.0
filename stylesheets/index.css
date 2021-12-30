@@ -1,0 +1,115 @@
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+
+
+#names {
+    background-color: gray;
+}
+
+
+
+/* Full height image header */
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("https://images.unsplash.com/photo-1520627900660-e152fd1ee167?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1576&q=80");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100%;
+}
+.bgimg-2 {
+    background-position: center;
+    background-size: cover;
+    background-image: url("https://images.unsplash.com/photo-1518105779142-d975f22f1b0a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100%;
+  }
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+
+.crossout{
+    text-decoration: line-through;
+}
+ 
+.rating {
+    unicode-bidi: bidi-override;
+   
+  }
+  .rating > span {
+    display: inline-block;
+    position: relative;
+    width: 1.1em;
+  }
+  .rating > span:hover:before,
+  .rating > span:hover ~ span:before {
+     content: "\2605";
+     position: absolute;
+  }
+  .w3-card{
+      height: auto
+      ;
+  }
+
+
+  input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    float: right;
+  }
+  input[type=text]:focus {
+    width: auto;
+  }
+  
+  /* .skillsSection,
+  .contactSection {
+    background-image: linear-gradient(to right, #2ebf91, #8360c3);
+    color: #fff;
+  } */
+  
+  .skill {
+    text-align: center;
+    margin-left: 10px;
+  }
+  
+  .chart {
+    position: relative;
+    width: auto;
+    height: auto;
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .chart canvas {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  
+  .chart .percent {
+    color: #000;
+    line-height: 152px;
+    display: inline-block;
+    font-size: 35px;
+  }
+  
+  .chart .percent:after {
+    content: "%";
+  }
