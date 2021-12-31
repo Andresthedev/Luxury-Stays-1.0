@@ -17,7 +17,7 @@ body, html {
 .bgimg-1 {
   background-position: center;
   background-size: cover;
-  background-image: url("https://images.unsplash.com/photo-1520627900660-e152fd1ee167?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1576&q=80");
+  background-image: url("https://images.unsplash.com/photo-1542332213-9b5a5a3fad35?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
   background-repeat: no-repeat;
   background-attachment: fixed;
   min-height: 100%;
@@ -30,6 +30,42 @@ body, html {
     background-attachment: fixed;
     min-height: 100%;
   }
+
+  /* test button */
+  
+  /* end test buttom */
+
+#main-button{
+  font-weight: bold;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 28px;
+  transition: all 0.9s;
+  cursor: pointer;
+}
+/* #main-button span{
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.9s;
+}
+#main-button span::after{
+  content: '00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.9s;
+}
+#main-button:hover span{
+  padding-right: 25px;
+}
+#main-button:hover span:after {
+  opacity: 1;
+  right: 0;
+} */
+
+
 
 .w3-bar .w3-button {
   padding: 16px;
